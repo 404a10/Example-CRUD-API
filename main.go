@@ -19,7 +19,7 @@ type Movie struct {
 
 type Director struct {
 	FirstName string `json:"firstname"`
-	LastName  string `json:"lastName"`
+	LastName  string `json:"lastname"`
 }
 
 var movies []Movie
